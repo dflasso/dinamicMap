@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="DanyLasso_Seccion9.jnlp">
+  <information>
+    <title>DanyLasso_Seccion9</title>
+    <vendor>Familia Lasso Ayala</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="DanyLasso_Seccion9.jar" size="56417" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="DanyLasso_Seccion9" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="ec.edu.espe.src.App"  name="DanyLasso_Seccion9" />
+  <update check="always"/>
+</jnlp>
